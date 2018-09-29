@@ -1,3 +1,11 @@
+
+##Heroku deployment -> 
+https://mercadolibre-santiagocb.herokuapp.com/
+
+
+##Docker deployment -> 
+docker run -it -v ${PWD}:/usr/src/app -v /usr/src/app/node_modules -p 2000:3000 --rm santiagocb/mercadolibre-scb:1.0
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
